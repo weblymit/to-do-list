@@ -1,0 +1,20 @@
+1) Intégrer la maquette (HTML + CSS)
+2) Dans le fichier script 
+    - Selectionne l'id du button et ajoute un évènement onclick
+    - Crée une fonction qui va se déclencher lorsque l'on click sur le bouton et qui affiche sur la console "la fonction fonctionne"
+    
+3) Validate input
+* Condition
+===========
+- Si le champ d'input est vide empêcher l'envoi du formulaire avec un message alert("Ajoute une tache")
+- Si la longueur de la tâche est inferieur à 5 caractères empêcher l'envoi du formulaire avec un message alert("Tache trop courte")
+- Si la longueur de la tâche est supperieur à 35 caractères empêcher l'envoi du formulaire avec un message alert("Tache trop longue")
+- Sinon on affiche sur la console "Tout est ok pour envoyer"
+
+4) Ajouter une nouvelle tache 
+    - Crée une variable elInput qui va contenir la valeur de l'input
+     - Selectionner la div où les tâches seront affichées
+     - Ajouter une div avec la class "task", dans cette div Ajouter un span avec un id "taskName" et un button avec une class "delete"
+5) Supprimer une tache 
+    - Crée une variable currentTask qui va contenir toutes les class "delete"
+    - Faire une boucle for qui va faire une boucle de currentTask et chaque fois qu'on cliquera sur une élement button ça supprimera l'élément
